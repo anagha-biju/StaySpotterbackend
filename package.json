@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -20,14 +21,10 @@
     "nodemon": "^3.0.1",
     "router": "^1.3.8"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamalesh0703/Booking-server-side.git"
+  "engines": {
+    "node": ">=16 <17"
   },
-  "bugs": {
-    "url": "https://github.com/kamalesh0703/Booking-server-side/issues"
-  },
-  "homepage": "https://github.com/kamalesh0703/Booking-server-side#readme",
-  "description": ""
+  "resolutions": {
+    "cssnano-preset-simple": "3.0.0"
+  }
 }
