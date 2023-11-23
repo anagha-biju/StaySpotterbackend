@@ -27,7 +27,7 @@ router.post('/upload', upload.array('images', 6), async (req, res) => {
   const uploadedImages = [];
 
   for (const file of fileArray) {
-    uploadedImages.push({ filename: file.originalname, filepath: `https://projectbackend-yoxw.onrender.com/${file.originalname}` });
+    uploadedImages.push({ filename: file.originalname, filepath: `http://localhost:5500/uploads/${file.originalname}` });
   }
     const hotel =new  HotelModel({
       name: req.body.name,
